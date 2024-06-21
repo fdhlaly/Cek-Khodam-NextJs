@@ -27,7 +27,7 @@ export default function Home() {
             type="text"
             id="input"
             name="input"
-            placeholder="Cek khodam kamu disini!"
+            placeholder="Cek khodam kamu disini yuk!"
             className={styles.input}
           />
           <button id="cek" onClick={submitValue} className={styles.button}>
