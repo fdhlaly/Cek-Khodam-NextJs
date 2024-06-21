@@ -85,6 +85,7 @@ const data = [
   "Kue Lumpur",
   "Putu Ayu",
   "Onde-Onde",
+  "extra joss susu",
   "Pukis",
   "Serabi",
   "Martabak Telur",
