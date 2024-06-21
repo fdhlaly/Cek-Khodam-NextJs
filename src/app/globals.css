@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cover bg-center flex justify-center items-center min-h-screen w-full;
+  }
+}
+
+@media (max-width: 639px) {
+  body {
+    @apply bg-mobile-image;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    @apply bg-desktop-image;
+  }
+}

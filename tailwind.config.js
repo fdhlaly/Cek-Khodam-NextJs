@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "custom-image": "url(./image1.jpg)",
+        "desktop-image": "url(../utils/image1.jpg)",
+        "mobile-image": "url(../utils/image2.jpg)",
       },
     },
   },
